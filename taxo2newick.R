@@ -40,6 +40,6 @@ taxo2newick <-function(x, backbone = TRUE, backbonenewick, hightaxo, lowtaxo){
 }
 
 #TESTING
-taxo <- data.frame(Class = c("A", "A", "B", "B", "C"), Order = c("D", "E", "F", "G", "H"), Family = c("I","J", "K", "L", "M"))
-classorder <- taxo2newick(taxo, backbone = FALSE, hightaxo = "Class", lowtaxo = "Order")
-orderfamily <- taxo2newick(taxo, backbone = TRUE, hightaxo = "Order", lowtaxo = "Family", backbonenewick = classorder)
+#taxo <- data.frame(Class = c("A", "A", "B", "B", "C"), Order = c("D", "E", "F", "G", "H"), Family = c("I","J", "K", "L", "M"))
+#classorder <- taxo2newick(taxo, backbone = FALSE, hightaxo = "Class", lowtaxo = "Order")
+#orderfamily <- taxo2newick(taxo, backbone = TRUE, hightaxo = "Order", lowtaxo = "Family", backbonenewick = classorder)
